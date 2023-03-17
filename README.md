@@ -1,5 +1,6 @@
 <h1>FastAPI Microservices - Products and Orders</h1>
 <p>This repository contains a sample FastAPI application that demonstrates how to implement microservices for products and orders, using Redis for data storage and message streaming. The project is based on the Microservices with FastAPI – Full Course from freecodecamp.org (https://www.freecodecamp.org/news/how-to-create-microservices-with-fastapi/). The code has been slightly simplified, and additional comments have been added for clarity. The Redis stream's <code>.get()</code> method was replaced with <code>.hgetall()</code> to resolve issues, which resulted in a "DeprecationWarning: Redis.hmset() is deprecated. Use Redis.hset() instead". No front-end implementation is included, as the focus is on understanding the microservices concept.</p>
+<p>https://documenter.getpostman.com/view/25720495/2s93JzKfdy</p>
 <h2>Architecture</h2>
 <p>The architecture consists of two main components:</p>
 <ol>
